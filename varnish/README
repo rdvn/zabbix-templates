@@ -1,0 +1,7 @@
+Usage:
+
+As root setup a cronjob:
+* * * * * /usr/bin/varnishstat -1 > /tmp/varnishstat
+
+Add an user parameter to zabbix:
+UserParameter=varnish.stat[*],cat /tmp/varnishstat | grep "$1 " | awk '{print $$2}'

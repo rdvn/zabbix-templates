@@ -1,0 +1,7 @@
+Usage:
+
+As root setup a cronjob:
+* * * * * /usr/bin/redis-cli info > /tmp/redisstat
+
+Add an user parameter to zabbix:
+UserParameter=redis.stat[*],cat /tmp/redisstat | grep "$1:" | cut -d":" -f2
