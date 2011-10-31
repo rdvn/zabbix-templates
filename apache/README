@@ -1,0 +1,7 @@
+Usage:
+
+You have to enable ExtendedStatus in httpd for this 
+to work correctly.
+
+Add an user parameter to zabbix:
+UserParameter=apache[*],/path/to/apache-status.sh $1
