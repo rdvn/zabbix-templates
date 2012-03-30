@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<zabbix_export version="1.0" date="01.07.11" time="10.35">
+<zabbix_export version="1.0" date="30.03.12" time="09.07">
   <hosts>
     <host name="redis_t">
       <proxy_hostid>0</proxy_hostid>
@@ -49,6 +49,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
           </applications>
@@ -82,6 +83,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Clients</application>
@@ -116,6 +118,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Keys</application>
@@ -150,6 +153,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Clients</application>
@@ -184,6 +188,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Clients</application>
@@ -218,6 +223,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Clients</application>
@@ -252,6 +258,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Clients</application>
@@ -286,6 +293,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Keys</application>
@@ -320,6 +328,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Keys</application>
@@ -354,6 +363,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Keys</application>
@@ -388,12 +398,13 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Keys</application>
           </applications>
         </item>
-        <item type="0" key="redis.stat[mem_fragmentation_ratio]" value_type="3">
+        <item type="0" key="redis.stat[mem_fragmentation_ratio]" value_type="0">
           <description>Memory Fragmentation Ratio</description>
           <ipmi_sensor></ipmi_sensor>
           <delay>60</delay>
@@ -422,6 +433,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Memory</application>
@@ -456,6 +468,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
           </applications>
@@ -489,6 +502,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Clients</application>
@@ -523,6 +537,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: CPU</application>
@@ -557,6 +572,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: CPU</application>
@@ -591,6 +607,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: CPU</application>
@@ -625,13 +642,14 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: CPU</application>
           </applications>
         </item>
         <item type="0" key="redis.stat[used_memory]" value_type="3">
-          <description>Allocated memory</description>
+          <description>Used memory</description>
           <ipmi_sensor></ipmi_sensor>
           <delay>60</delay>
           <history>30</history>
@@ -659,6 +677,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Memory</application>
@@ -693,6 +712,7 @@
           <snmpv3_securitylevel>0</snmpv3_securitylevel>
           <snmpv3_authpassphrase></snmpv3_authpassphrase>
           <snmpv3_privpassphrase></snmpv3_privpassphrase>
+          <valuemapid>0</valuemapid>
           <applications>
             <application>Redis</application>
             <application>Redis: Memory</application>
@@ -700,7 +720,69 @@
         </item>
       </items>
       <templates/>
-      <graphs/>
+      <graphs>
+        <graph name="Redis:: Commands" width="900" height="200">
+          <ymin_type>0</ymin_type>
+          <ymax_type>0</ymax_type>
+          <ymin_item_key></ymin_item_key>
+          <ymax_item_key></ymax_item_key>
+          <show_work_period>0</show_work_period>
+          <show_triggers>0</show_triggers>
+          <graphtype>0</graphtype>
+          <yaxismin>0.0000</yaxismin>
+          <yaxismax>100.0000</yaxismax>
+          <show_legend>0</show_legend>
+          <show_3d>0</show_3d>
+          <percent_left>0.0000</percent_left>
+          <percent_right>0.0000</percent_right>
+          <graph_elements>
+            <graph_element item="redis_t:redis.stat[total_commands_processed]">
+              <drawtype>2</drawtype>
+              <sortorder>0</sortorder>
+              <color>00cc00</color>
+              <yaxisside>0</yaxisside>
+              <calc_fnc>2</calc_fnc>
+              <type>0</type>
+              <periods_cnt>5</periods_cnt>
+            </graph_element>
+          </graph_elements>
+        </graph>
+        <graph name="Redis:: Memory" width="900" height="200">
+          <ymin_type>0</ymin_type>
+          <ymax_type>0</ymax_type>
+          <ymin_item_key></ymin_item_key>
+          <ymax_item_key></ymax_item_key>
+          <show_work_period>0</show_work_period>
+          <show_triggers>0</show_triggers>
+          <graphtype>1</graphtype>
+          <yaxismin>0.0000</yaxismin>
+          <yaxismax>100.0000</yaxismax>
+          <show_legend>0</show_legend>
+          <show_3d>0</show_3d>
+          <percent_left>0.0000</percent_left>
+          <percent_right>0.0000</percent_right>
+          <graph_elements>
+            <graph_element item="redis_t:redis.stat[used_memory]">
+              <drawtype>0</drawtype>
+              <sortorder>0</sortorder>
+              <color>00cc00</color>
+              <yaxisside>0</yaxisside>
+              <calc_fnc>2</calc_fnc>
+              <type>0</type>
+              <periods_cnt>5</periods_cnt>
+            </graph_element>
+            <graph_element item="redis_t:redis.stat[used_memory_rss]">
+              <drawtype>0</drawtype>
+              <sortorder>1</sortorder>
+              <color>0066b3</color>
+              <yaxisside>0</yaxisside>
+              <calc_fnc>2</calc_fnc>
+              <type>0</type>
+              <periods_cnt>5</periods_cnt>
+            </graph_element>
+          </graph_elements>
+        </graph>
+      </graphs>
       <macros/>
     </host>
   </hosts>
