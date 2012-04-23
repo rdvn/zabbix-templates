@@ -404,7 +404,7 @@
             <application>Redis: Keys</application>
           </applications>
         </item>
-        <item type="0" key="redis.stat[mem_fragmentation_ratio]" value_type="0">
+        <item type="0" key="redis.stat[mem_fragmentation_ratio]" value_type="3">
           <description>Memory Fragmentation Ratio</description>
           <ipmi_sensor></ipmi_sensor>
           <delay>60</delay>
