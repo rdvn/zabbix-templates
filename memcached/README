@@ -1,0 +1,17 @@
+Install perl Cache::Memcached from CPAN or your upstream distribution vendor.
+
+- perl-Cache-Memcached on redhat/fedora
+- libcache-memcached-perl on debian/ubuntu
+
+Generate template for desired port. For memcached listening on different address adjust template and stats collecting script accordingly.
+
+  export PORT=11211; sed -e "s/#PORT#/$PORT/g" memcached_t.xml > memcached_t_$PORT.xml
+
+Add userparams into /etc/zabbix/zabbix_agentd.conf.
+
+  UserParameter=memcached.stat[*],awk '/^STAT $1 / {print $$3}' /tmp/_zabbix_memcached_stat_$2
+  UserParameter=memcached.mem[*],ps -e -orss,cmd | grep -vE '(awk|grep)' | awk '/memcached.*$1/ {print $$1}'
+
+Add cron job for runtime statistics precollection into files (crontab -e).
+ 
+  * * * * * /usr/local/bin/memcached_stats.pl
