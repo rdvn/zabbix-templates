@@ -5,3 +5,6 @@ As root setup a cronjob:
 
 Add an user parameter to zabbix:
 UserParameter=varnish.stat[*],cat /tmp/varnishstat | grep "$1 " | awk '{print $$2}'
+
+
+this is for varnishstat (varnish-3.0.3 revision 9e6a70f)
